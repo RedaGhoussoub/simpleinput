@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func ReadIntFromKeyboard() int {
+func ReadInt() int {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
 	if err != nil {
